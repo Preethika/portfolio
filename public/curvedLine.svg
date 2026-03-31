@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#020617"/>
+
+  <!-- Gradients -->
+  <defs>
+   
+    <!-- Blur filter -->
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="80" />
+    </filter>
+  </defs>
+
+ 
+  <!-- Subtle curved line -->
+  <path d="M400 950 C1200 600, 1400 800, 1600 650"
+        stroke="white"
+        stroke-opacity="0.15"
+        stroke-width="1.5"
+        fill="none"/>
+
+</svg>
