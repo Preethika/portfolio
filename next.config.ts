@@ -1,8 +1,8 @@
-import type { NextConfig } from "next";
+const repoName = "portfolio";
 
-const nextConfig: NextConfig = {
-  allowedDevOrigins: ['192.168.1.19'],
+module.exports = {
   output: "export",
+  basePath: `/${repoName}`,
+  assetPrefix: `/${repoName}/`,
+  trailingSlash: true,
 };
-
-export default nextConfig;
