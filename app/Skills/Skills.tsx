@@ -88,7 +88,7 @@ export default function Skills() {
                 text-white
                 "
             style={{
-                backgroundImage: `url('/hero.svg')`,
+                backgroundImage: `url('/portfolio/hero.svg')`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
             }}

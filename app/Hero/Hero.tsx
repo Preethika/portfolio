@@ -1,17 +1,17 @@
-import { FaDownload, FaEye } from "react-icons/fa6";
+import { FaDownload } from "react-icons/fa6";
 import '../globals.css';
-function Hero() {
 
+function Hero() {
     return (
-        <section className="h-screen bg-cover bg-center flex flex-col justify-center items-center text-center px-6"
+        <section className="relative overflow-hidden h-screen bg-cover bg-center flex flex-col justify-center items-center text-center px-6"
             style={{
-                backgroundImage: `url('/curvedLine.svg')`,
+                backgroundImage: `url('/portfolio/curvedLine.svg')`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
             }}
         >
-            <div className="absolute  top-0 left-10 w-172 h-172 bg-purple-500/20 blur-3xl rounded-full"></div>
-            <div className="absolute  top-100 right-130 w-172 h-100 bg-pink-500/20 blur-3xl rounded-full"></div>
+            <div className="absolute top-0 left-10 w-[320px] h-[320px] bg-purple-500/20 blur-3xl rounded-full" />
+            <div className="absolute top-[40%] right-[-75px] w-[260px] h-[260px] bg-pink-500/20 blur-3xl rounded-full" />
 
             <h1 className="text-4xl font-bold mb-4">Hi, I'm Preethika</h1>
             <p className="text-xl text-gray-300 mb-6">
