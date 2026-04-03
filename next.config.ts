@@ -1,8 +1,7 @@
 const repoName = "portfolio";
 
 module.exports = {
-  output: "export",
-  basePath: `/${repoName}`,
-  assetPrefix: `/${repoName}/`,
-  trailingSlash: true,
+  // output: "export",
+  basePath: ``,
+  assetPrefix: ``,
 };
