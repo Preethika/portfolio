@@ -53,20 +53,18 @@ function Hero() {
                     Resume
                 </a>
 
-                <button className="border border-gray-500 px-6 py-3 w-full sm:w-auto rounded-xl
+                <a
+                    href="#contact"
+                    className="border border-gray-500 px-6 py-3 w-full sm:w-auto rounded-xl
                         bg-white/10 backdrop-blur-xl
                         border border-white/20
                         shadow-[0_8px_32px_rgba(0,0,0,0.3)]
                         transition-all duration-300
                         hover:bg-white/20 hover:scale-[1.03]
                         hover:shadow-[0_0_40px_rgba(168,85,247,0.3)]"
-                    onClick={() =>
-                        document.getElementById("contact")?.scrollIntoView({
-                            behavior: "smooth",
-                        })
-                    }>
+                >
                     Contact Me
-                </button>
+                </a>
 
             </div>
             {/* <div className="flex flex-col sm:flex-row justify-center items-center gap-4">

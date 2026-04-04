@@ -146,10 +146,9 @@ function Projects() {
         <motion.section
             id="projects"
             className="py-20 px-6"
-            initial={{ opacity: 0, y: 60 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
         >
             <h2 className="text-3xl text-center mb-10">Projects</h2>
             <div className="flex gap-6 overflow-x-auto">
