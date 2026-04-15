@@ -5,7 +5,7 @@ import { MdEmail } from "react-icons/md";
 
 export default function Contact() {
     return (
-        <section id="contact" className="py-24 bg-slate-900 text-white text-center">
+        <section id="contact" className="py-24 bg-slate-800 text-white text-center">
             <h2 className="text-3xl font-semibold mb-6">Get In Touch</h2>
 
             <p className="text-gray-400 mb-10">

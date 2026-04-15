@@ -8,6 +8,7 @@ const skillsData = [
         title: "AI/LLM",
         items: [
             "LLM Integration",
+            "RAG",
             "Vector Search/Embeddings",
             "Prompt Engineering",
             "Context Management",

@@ -1,15 +1,10 @@
 import { motion } from "framer-motion";
-import { FaReact, FaNodeJs, FaBrain, FaGithub } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaGithub, FaRobot } from "react-icons/fa";
 import {
     SiTypescript,
-    SiJavascript,
-    SiFastapi,
-    SiCypress,
     SiOpenai,
     SiExpress,
-
 } from "react-icons/si";
-import { MdAutoAwesome } from "react-icons/md";
 
 const container = {
     hidden: {},
@@ -29,7 +24,7 @@ function Projects() {
     const projects = [
         {
             title: "AI Workspace",
-            desc: "Integrates LLM-powered tools for intelligent search, document analysis, and productivity automation",
+            desc: "Integrates LLM-powered tools for semantic search, document analysis, and intelligent data insights",
             techstack: [
                 {
                     name: "React JS",
@@ -56,13 +51,18 @@ function Projects() {
                     icon: SiOpenai,
                     color: "text-black",
                 },
+                {
+                    name: "RAG",
+                    icon: FaRobot,
+                    color: "text-black",
+                },
 
             ],
             features: [
                 "ChatBot",
-                "AI Search",
-                "AI Data insights",
-                "AI Document Analysis"
+                "Semantic Search",
+                "Document Analysis",
+                "Data insights"
             ],
             githubLinks: [
                 {
